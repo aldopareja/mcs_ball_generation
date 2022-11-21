@@ -1,0 +1,36 @@
+# Add a Retrieval goal with a soccer ball as the target object.
+goal:
+    category: retrieval
+    target:
+        shape: soccer_ball
+        scale:
+            min: 1.0
+            max: 3.0
+
+# Only the target can be a soccer ball.
+excluded_shapes: soccer_ball
+
+# Generate many occluding structures, but no other structures.
+# One will always begin in front of the target, occluding it.
+random_structural_objects:
+    - type:
+        - occluding_walls
+      num: 1
+      keyword_location:
+          keyword:
+              - occlude
+          relative_object_label: target
+    - type:
+        - l_occluders
+        - occluding_walls
+      num:
+        min: 4
+        max: 9
+
+# Override the default to only generate random context objects, in addition to
+# the target and the occluding structures.
+keyword_objects:
+    - keyword: context
+      num:
+          min: 0
+          max: 10

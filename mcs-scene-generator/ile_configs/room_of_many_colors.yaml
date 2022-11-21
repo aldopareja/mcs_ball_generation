@@ -1,0 +1,39 @@
+# Add a Retrieval goal with a soccer ball as the target object.
+goal:
+    category: retrieval
+    target:
+        shape: soccer_ball
+        scale:
+            min: 1.0
+            max: 3.0
+
+# Only the target can be a soccer ball.
+excluded_shapes: soccer_ball
+
+# Between 1 and 100 areas of the floor will be colored randomly.
+floor_material_override:
+    - num:
+        min: 1
+        max: 100
+
+# Each outer room wall will be colored randomly and independently.
+wall_back_material:
+    - CERAMIC_MATERIALS
+    - METAL_MATERIALS
+    - WALL_MATERIALS
+    - WOOD_MATERIALS
+wall_front_material:
+    - CERAMIC_MATERIALS
+    - METAL_MATERIALS
+    - WALL_MATERIALS
+    - WOOD_MATERIALS
+wall_left_material:
+    - CERAMIC_MATERIALS
+    - METAL_MATERIALS
+    - WALL_MATERIALS
+    - WOOD_MATERIALS
+wall_right_material:
+    - CERAMIC_MATERIALS
+    - METAL_MATERIALS
+    - WALL_MATERIALS
+    - WOOD_MATERIALS
