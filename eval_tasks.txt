@@ -1,0 +1,32 @@
+eval_num  task_name mcs_core_domains example_config
+3	Containers (Interactive)	P1, P4	containment.yaml
+3	Gravity Support (Passive)	O6, P1	passive_physics_gravity_support.yaml
+3	Obstacles (Interactive)	P1	occlusion_by_furniture.yaml
+3	Occluders (Interactive)	O1, P1, P4	occlusion_by_furniture.yaml
+3	Passive Object Permanence	O1, O4	passive_physics_fall_down.yaml
+3	Passive Object Permanence	O1, O4	passive_physics_move_across.yaml
+3	Passive Object Permanence	O1, O4	passive_physics_move_behind.yaml
+3	Shape Constancy (Passive)	O1, O4	passive_physics_fall_down.yaml
+3	Spatio-Temporal Continuity (Passive)	O1, O4	passive_physics_move_across.yaml
+4	Collisions (Passive)	O1, O2, O3	passive_physics_collisions.yaml
+4	Interactive Object Permanence	O4	interactive_object_permanence.yaml
+5	Agent Identification (Interactive)	A5	mcs-scene-generator/ile_configs/interactive_agent_identification.yaml
+5	Moving Target Prediction (Interactive)	O8	mcs-scene-generator/ile_configs/interactive_moving_target_prediction.yaml
+5	Navigation: Holes (Interactive)	P7	mcs-scene-generator/ile_configs/holes.yaml, holes_with_agent.yaml
+5	Navigation: Lava (Interactive)	P7	mcs-scene-generator/ile_configs/lava.yaml lava_with_agent.yaml
+5	Navigation: Ramps (Interactive)	P6	mcs-scene-generator/ile_configs/ramps.yaml ramps_with_agent.yaml
+5	Solidity (Interactive)	O3	mcs-scene-generator/ile_configs/interactive_solidity.yaml
+5	Spatial Elimination (Interactive)	P4	mcs-scene-generator/ile_configs/interactive_spatial_elimination.yaml
+5	Support Relations (Interactive)	O6	mcs-scene-generator/ile_configs/interactive_support_relations.yaml
+5	Tool Use (Interactive)	O5	mcs-scene-generator/ile_configs/tools.yaml
+6	Arithmetic (Interactive)	O7	mcs-scene-generator/ile_configs/interactive_arithmetic.yaml
+6	Collisions (Interactive)	O2	mcs-scene-generator/ile_configs/interactive_collision.yaml
+6	Imitation (Interactive)	A7	mcs-scene-generator/ile_configs/interactive_imitation.yaml
+6	Number Comparison (Interactive)	O7	mcs-scene-generator/ile_configs/interactive_number_comparison.yaml
+6	Seeing Leads to Knowing (Passive)	A6	mcs-scene-generator/ile_configs/passive_seeing_leads_to_knowing.yaml
+6	Set Rotation (Interactive)	P5	mcs-scene-generator/ile_configs/interactive_set_rotation.yaml
+6	Shell Game (Interactive)	P5	mcs-scene-generator/ile_configs/interactive_shell_game.yaml
+6	Spatial Reference (Interactive)	A7	mcs-scene-generator/ile_configs/interactive_spatial_reference.yaml
+6	Spatial Reorientation (Interactive)	P2, P3	mcs-scene-generator/ile_configs/interactive_spatial_reorientation.yaml
+6	Trajectory (Interactive)	O2	mcs-scene-generator/ile_configs/interactive_trajectory.yaml
+6	Tool Choice (Interactive)	O5	mcs-scene-generator/ile_configs/interactive_tool_choice.yaml

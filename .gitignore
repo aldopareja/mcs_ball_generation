@@ -1,3 +1,11 @@
 ball_scenes/
 SCENE_HISTORY/
 .ipynb_checkpoints/
+eval_scenes/
+wandb/
+*.h5
+__bk_mcs-scene-generator/
+__pycache__/
+chkpts/
+panels/
+erase.txt

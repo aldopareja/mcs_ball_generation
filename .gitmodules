@@ -1,0 +1,4 @@
+
+[submodule "mcs-scene-generator"]
+	path = mcs-scene-generator
+	url = git@github.com:NextCenturyCorporation/mcs-scene-generator.git
